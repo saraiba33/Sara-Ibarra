@@ -6,7 +6,7 @@
             padding: 0;
         }
         html,body {
-            height: 100vh;
+            height: 100;
         }
 
         /*header*/
@@ -71,7 +71,7 @@
         /*header end */
 
         #page-container {
-            position: relative;
+           
             min-height: 100vh;
         }
         main {
