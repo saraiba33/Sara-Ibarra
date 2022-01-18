@@ -6,7 +6,7 @@
             padding: 0;
         }
         html,body {
-            height: 100;
+            height: 100vh;
         }
 
         /*header*/
@@ -23,7 +23,7 @@
             width: 100%;
             background-color: black;
             margin: 0;
-            padding: 0;
+            padding: 10px 30px;
         }
 
         nav>ul {
@@ -38,7 +38,7 @@
         }
 
         .btn {
-            background-color: white;
+            background-color: #DAA967;
             border: none;
             color: black;
             padding: 10px 25px;
@@ -55,24 +55,28 @@
         }
 
         .btn:hover {
-            background-color: rgba(187, 32, 11, 0.747);
+            background-color: #6E3F37;
             color: black;
         }
 
         header {
             display: block;
-            top: 0;
-            left: 0;
             width: 100%;
-            background-color: gray;
-            padding: 0px;
-            padding-top: 30px;
+            background-color: #706F73;
+            padding: 0;
+            padding-bottom: 30px;
+            background-image: url(Images/GC.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+           
         }
         /*header end */
 
         #page-container {
            
             min-height: 100vh;
+
         }
         main {
             display: block;

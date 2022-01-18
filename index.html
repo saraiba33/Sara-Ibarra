@@ -8,13 +8,13 @@
     <link rel="icon" type="image/jpg" href="Images/favicon.jpg">
     <title>Sara Ibarra</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap">
+
     <style>
         /*header*/
         #profile-picture {
             border-radius: 50%;
             cursor: pointer;
-            margin-left: 60px;
+            margin-left: 50px;
         }
 
         h1 {
@@ -23,14 +23,12 @@
             letter-spacing: 5px;
             padding: 30px;
             font-size: 50px;
-            font-weight: bold;
-            font-family: 'Montserrat', sans-serif;
             color: black;
-            text-shadow:
+            /*text-shadow:
                 -1px -1px 0 rgba(211, 211, 211, 0.356),
                 1px -1px 0 rgba(211, 211, 211, 0.356),
                 -1px 1px 0 rgba(211, 211, 211, 0.356),
-                1px 1px 0 rgba(211, 211, 211, 0.356);
+                1px 1px 0 rgba(211, 211, 211, 0.356);*/
 
         }
 
@@ -38,6 +36,7 @@
             background-image: url(Images/GC.jpg);
             background-position: center;
             background-size: cover;
+            height: 300px;
 
         }
 
@@ -62,10 +61,13 @@
         }
 
         /*header*/
-
+        body {
+            background-color: #F2F2F2;
+        }
 
         .box-parent-element {
             width: 87%;
+            padding-top: 200px;
 
         }
 
@@ -77,28 +79,43 @@
 
         .box1 {
             margin-left: 20%;
-            height: auto;
-            background-color: lightgray;
+            height: 500px;
+            background-color: #A69FA0;
             padding: 30px 20px;
+
 
         }
 
         .box2 {
             margin-left: 20%;
-            height: auto;
-            background-color: lightgray;
+            height: 500px;
+            background-color: #A69FA0;
             padding: 30px 20px;
+            margin-top: 600px;
 
         }
 
         .boxheader {
             letter-spacing: 8px;
             padding: 30px 0;
-            border-bottom: 1px solid black;
+            border-bottom: 2px solid black;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+
         }
 
         img {
-            border: 5px solid #555;
+            border: 10px solid #DAA967;
+            background-color: #DAA967;
+            font-weight: bold;
+        }
+
+        p {
+            padding-top: 30px;
+        }
+       
+        #topbox{
+            background-color: lightpink;
         }
     </style>
 
@@ -107,14 +124,6 @@
 <body>
     <div id="page-container">
         <header>
-
-            <div id="profile">
-                <img id="profile-picture" class="bottom" src="Images/Kayak.jpg" alt="Sara Ibarra" width="300px">
-                <img id="profile-picture" class="top" src="Images/Profile.jpg" alt="Sara Ibarra" width="300px">
-            </div>
-            <h1>Sara Ibarra</h1>
-
-
             <nav>
 
                 <ul>
@@ -123,39 +132,48 @@
                     <li><a href="revisions.html" class="btn 3">My Guidance</a></li>
                 </ul>
             </nav>
+            <h1>Sara Ibarra</h1>
+            <div id="profile">
+                <img id="profile-picture" class="bottom" src="Images/Kayak2.jpg" alt="Sara Ibarra" width="300px">
+                <img id="profile-picture" class="top" src="Images/Profile.jpg" alt="Sara Ibarra" width="300px">
+            </div>
         </header>
-        <main >
+        <main>
             <article>
                 <div class="box-parent-element">
-                    <div class="box-child-element ">
+                    <div class="box-child-element">
                         <div class="box1">
                             <h2 class="boxheader">About Me</h2>
-                            Hello! My name is Sara Ibarra. I grew up
-                            in a small town in Arizona, where most people stay
-                            forever. I was always the one that wanted
-                            to experience more and move beyond what
-                            was comfortable. I moved to Colorado 7 years
-                            ago and fell in love with the state. I
-                            worked a few places that were stepping
-                            stones for what was to come. I finally
-                            found a position with Ford Credit in July
-                            2019 and felt like this was the career for
-                            me. When I am not at work, I enjoy spending
-                            time watching football (Go Cardinals!),
-                            kayaking, baking, coaching,
-                            and making some sort of craft. One of the ways
-                            life remains full, exciting, healthy for me is
-                            to create. One of my favorite things to do is
-                            to take something that was going to be thrown
-                            out and turn it into something new. I have always
-                            been a self-learner and have become good friends
-                            with YouTube and Pinterest. I learned how to make
-                            everything from a cheesecake to a side table.
-                            My desire is to grow in the freedom to continue
-                            taking my own thoughts, ideas, designs, and turning
-                            them into reality, so that one day others are using
-                            my Pinterest and YouTube channels as their examples.
-
+                            <p>
+                                Hello! My name is Sara Ibarra. I grew up
+                                in a small town in Arizona, where most people stay
+                                forever. I was always the one that wanted
+                                to experience more and move beyond what
+                                was comfortable. I moved to Colorado 7 years
+                                ago and fell in love with the state. I
+                                worked a few places that were stepping
+                                stones for what was to come. I finally
+                                found a position with Ford Credit in July
+                                2019 and felt like this was the career for
+                                me.
+                            </p>
+                            <p>
+                                When I am not at work, I enjoy spending
+                                time watching football (Go Cardinals!),
+                                kayaking, hiking, coaching,
+                                and making some sort of craft. One of the ways
+                                life remains full, exciting, healthy for me is
+                                to create. One of my favorite things to do is
+                                to take something that was going to be thrown
+                                out and turn it into something new. I have always
+                                been a self-learner and have become good friends
+                                with YouTube and Pinterest. I learned how to make
+                                everything from a cheesecake to a side table.
+                                My desire is to grow in the freedom to continue
+                                taking my own thoughts, ideas, designs, and turning
+                                them into reality, so that one day others are using
+                                my Pinterest and YouTube channels as their examples.
+                            </p>
 
                         </div>
                     </div>
@@ -163,29 +181,32 @@
                     <div class="box-child-element">
                         <div class="box2">
                             <h2 class="boxheader">The Why</h2>
-                            Entering into the field of software engineering
-                            provides me with endless opportunities to create.
-                            As I said previously, what motivates me in life is
-                            having an outlet to express myself. This marries
-                            perfectly with Ford's future goals. Marion Harris
-                            has said, "We need to start thinking of ourselves
-                            as a software company more than a finance company."
-                            I want to be part of Ford Credit for many years to
-                            come. I want to grow with the company and be a part
-                            of the transformation from thinking like a finance
-                            company to becoming a software company.
-                            <br>
-                            After these last six weeks, I discovered that part
-                            of being a software engineer involves constant
-                            problem-solving, research, and creativity to identify
-                            the code that needs correction in order to bring the
-                            project to life. This is very similar to my learning
-                            process, as outlined under
-                            <a href="creative.html">"My Passion".</a>
-                            As I progressed through the project, I came to realize that this kind
-                            of work excites me and motivates me to reach the finish
-                            line. I look forward to using my creativity to help Ford
-                            evolve in the field of technology!
+                            <p>
+                                Entering into the field of software engineering
+                                provides me with endless opportunities to create.
+                                As I said previously, what motivates me in life is
+                                having an outlet to express myself. This marries
+                                perfectly with Ford's future goals. Marion Harris
+                                has said, "We need to start thinking of ourselves
+                                as a software company more than a finance company."
+                                I want to be part of Ford Credit for many years to
+                                come. I want to grow with the company and be a part
+                                of the transformation from thinking like a finance
+                                company to becoming a software company.
+                            </p>
+                            <P>
+                                After these last six weeks, I discovered that part
+                                of being a software engineer involves constant
+                                problem-solving, research, and creativity to identify
+                                the code that needs correction in order to bring the
+                                project to life. This is very similar to my learning
+                                process, as outlined under
+                                <a href="creative.html">"My Passion".</a>
+                                As I progressed through the project, I came to realize that this kind
+                                of work excites me and motivates me to reach the finish
+                                line. I look forward to using my creativity to help Ford
+                                evolve in the field of technology!
+                            </P>
 
                         </div>
                     </div>
