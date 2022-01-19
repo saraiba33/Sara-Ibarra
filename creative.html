@@ -14,25 +14,31 @@
             letter-spacing: 5px;
             padding: 30px;
             font-size: 50px;
+            border-bottom: 5px solid #DAA967;
+            max-width: 600px;
+            min-width: 600px;
+            margin:0 745px; 
+            
         }
 
         h3 {
             text-align: center;
             letter-spacing: 5px;
-            padding: 30px;
-            font-weight:
+            padding: 20px;
+            font-size: 35px;
         }
 
         h2 {
             text-align: left;
             padding: 30px 50px;
             letter-spacing: 5px;
+            
         }
 
         section {
-            display: inline-block;
+            /*display: inline-block;*/
            text-align: left;
-            width: 50%;
+            width: 100%; /*this was set 75%*/
             padding: 10px;
             border-bottom: 1px solid black;
 
@@ -40,30 +46,26 @@
 
         p {
             padding: 10px;
+            text-align: center;
         }
-
-        /*header {
-            background-image: url(Images/Wooden1.jpg);
-            background-position: center;
-            background-size: cover;
-        }*/
-
 
         #intro {
             padding-bottom: 50px;
             border-bottom: 1px solid black;
+            text-align: center;
         }
 
         .column {
             float: left;
             width: 50%;
+            text-align: center;
         }
 
 
         .row:after {
             content: "";
             display: table;
-            clear: both;
+            clear: both;            
         }
 
         .row1 {
@@ -76,12 +78,26 @@
         .column1 {
             flex: 50%;
             padding: 0 4px;
+            text-align: center;
         }
 
         .column1 img {
             margin-top: 8px;
             vertical-align: middle;
         }
+        #container1 {
+            background-color: rgb(166, 159, 160, 0.4);
+            
+        }
+        #container2 {
+            background-color: rgb(218, 169, 103, 0.6);
+            
+        }
+        #container3 {
+            background-color: rgb(166, 159, 160, 0.4);
+            
+        }
+        
     </style>
 </head>
 
@@ -96,20 +112,23 @@
                 </ul>
             </nav>
             <h1>My Passion</h1>
-            <h1>Wood Projects </h1>
+            <h3>Wood Projects </h3>
             
         </header>
         <main>
             <article>
                 <section id="intro">
-                    My creative process is a three step process: watch
-                    & learn, practice with guidance, do it on my own.
+                    <div>
+                    <strong style="font-size: 30px;">My creative process is a three step process:</strong> 
+                    <p style="font-size: 20px;">watch & learn, practice with guidance, do it on my own.</p>
+                </div>
                 </section>
-                <h2>Watch |</h2>
-                <section>
+                
+                <section id="container1">
+                    <h2>Watch |</h2>
                     <div class="row">
-                        <div class=>
-                            <p></p>
+                        <div>
+                            <p>
                             When I was young, my dad was constantly working around the
                             house doing repairs, renovating, or building something from
                             scratch. One day, he had some extra wood from a previous
@@ -129,8 +148,9 @@
                 </section>
                 <div>
 
-                    <h2>Practice | </h2>
-                    <section>
+                    
+                    <section id="container2">
+                        <h2>Practice | </h2>
                         <div class="row">
                             <div class="column">
                                 <p>
@@ -169,8 +189,9 @@
                         </div>
                     </section>
 
-                    <h2>Do it | </h2>
-                    <section>
+                    
+                    <section id="container3">
+                        <h2>Do it | </h2>
                         <div>
                             <div>
                                 <p> As I have become an adult, the desire to build and
