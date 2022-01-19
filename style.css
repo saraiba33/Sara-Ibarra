@@ -66,10 +66,10 @@
             background-color: #706F73;
             padding: 0;
             padding-bottom: 30px;
-            background-image: url(Images/GC3.jpg);
+            background-image: url(Images/GC.jpg);
             background-position: center;
             background-size: cover;
-            height: 450px;
+            height: 300px;
            
         }
         /*header end */
@@ -98,6 +98,21 @@
             position: relative;
             
         }
+
+        @media all and (max-width: 900px) {
+            .column {
+                width: 100%;
+               
+            }
+            .box-parent-element,  
+            .box-child-element,
+            .box1, .box2 {
+                width: 100%;
+            }
+        }
+
+      
+
 
         
    
