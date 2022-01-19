@@ -14,8 +14,8 @@
             letter-spacing: 5px;
             padding: 30px;
             font-size: 50px;
-            text-shadow: 2px 2px 8px white; 
-            
+            text-shadow: 2px 2px 8px white;
+
         }
 
         h3 {
@@ -30,40 +30,26 @@
             text-align: left;
             padding: 30px 50px;
             letter-spacing: 5px;
-            
+
         }
 
         section {
-            /*display: inline-block;*/
-           text-align: left;
-            width: 100%; /*this was set 75%*/
-            padding: 10px;
-            border-bottom: 1px solid black;
-
+            text-align: left;
+            width: 95%;
+            padding: 10px 35px;
         }
 
         p {
             padding: 10px;
-            text-align: center;
+            margin-left: 50px;
         }
 
         #intro {
-            padding-bottom: 50px;
-            border-bottom: 1px solid black;
+            
+            padding-top: 50px;
             text-align: center;
-        }
-
-        .column {
-            float: left;
-            width: 50%;
-            text-align: center;
-        }
-
-
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;            
+            background-color: rgb(166, 159, 160, 0.5);
+            width: 100%;
         }
 
         .row1 {
@@ -83,19 +69,35 @@
             margin-top: 8px;
             vertical-align: middle;
         }
-        #container1 {
-            background-color: rgb(166, 159, 160, 0.4);
+
+        .box1 {
+            background-color: #DAA967;
+            padding: 30px 20px;
+            box-shadow: 10px 10px 5px gray;
+            min-width: 500px;
+            width: 50%;
+
+        }
+
+        #box2 {
+            min-width: 500px;
+            text-align: center;
+            
+            margin-left: 5%;
             
         }
-        #container2 {
-            background-color: rgb(218, 169, 103, 0.6);
-            
+
+        table {
+            margin-left: 50px;
         }
-        #container3 {
-            background-color: rgb(166, 159, 160, 0.4);
-            
+
+        @media all and (max-width: 1200px) {
+
+           table {
+                width: 100%;
+
+            }
         }
-        
     </style>
 </head>
 
@@ -113,22 +115,23 @@
             <hr style="height: 2.5px; border-color: #DAA967; background-color: #DAA967; 
             width: 20%; margin:auto">
             <h3>Wood Projects </h3>
-            
+
         </header>
         <main>
             <article>
                 <section id="intro">
                     <div>
-                    <strong style="font-size: 30px;">My creative process is a three step process:</strong> 
-                    <p style="font-size: 20px;">watch & learn, practice with guidance, do it on my own.</p>
-                </div>
+                        <strong style="font-size: 30px;">My creative process is a three step process:</strong>
+                        <p style="font-size: 20px;">watch & learn, practice with guidance, do it on my own.</p>
+                    </div>
+                    <hr style="border-color: black; background-color: black; 
+                width: 50%; margin:auto; margin-top: 30px;">
                 </section>
-                
-                <section id="container1">
+
+                <section>
                     <h2>Watch |</h2>
-                    <div class="row">
-                        <div>
-                            <p>
+                    <div>
+                        <p>
                             When I was young, my dad was constantly working around the
                             house doing repairs, renovating, or building something from
                             scratch. One day, he had some extra wood from a previous
@@ -141,25 +144,21 @@
                             part of the learning process for me. I want to see how it's
                             done from someone that has experience and to get the
                             explanation, reasoning behind it.
-                            </p>
-                        </div>
-                       
+                        </p>
                     </div>
                 </section>
-                <div>
-
-                    
-                    <section id="container2">
-                        <h2>Practice | </h2>
-                        <div class="row">
-                            <div class="column">
+                <section>
+                    <h2>Practice | </h2>
+                    <div>
+                        <table>
+                            <td class="box1">
                                 <p>
                                     I continued to watch and learn the process
                                     as my dad worked on things, so that I could
                                     begin building too. Another project my dad
                                     decided to undertake was a birdhouse for the
-                                    tree in our front yard. I was still too young to use the power tools, so my dad
-                                    showed me how to
+                                    tree in our front yard. I was still too young
+                                    to use the power tools, so my dad showed me how to
                                     measure the wood and use the chalk reel to mark
                                     what needed to be cut. I carefully watched how
                                     he would position the wood and the tools as he
@@ -182,72 +181,75 @@
                                     skills necessary to continue building and creating
                                     projects on my own.
                                 </p>
-                            </div>
-                            <div class="column">
-                                <img src="Images/birdhouse.jpg" width="400px" height="400px">
-                            </div>
-                        </div>
-                    </section>
-
-                    
-                    <section id="container3">
-                        <h2>Do it | </h2>
-                        <div>
-                            <div>
-                                <p> As I have become an adult, the desire to build and
-                                    create has never gone away. When I moved to Colorado
-                                    7 years ago, my dad gave me a battery powered drill
-                                    and skill saw. I had a friend that was moving and
-                                    was getting rid of wooden bed slats used for a
-                                    platform bed. I realized this could be a good
-                                    opportunity to make something out of nothing.
-                                </p>
-                                <p>
-                                    As I started brainstorming, I came up with the idea
-                                    to build an entryway bench for my apartment. I had
-                                    not built anything like this before, so I started by
-                                    searching Pinterest to find design ideas. I also used
-                                    YouTube instructional videos to figure out exactly how
-                                    to put it together. All the skills I had learned from
-                                    when I was a child and teenager had not been forgotten.
-                                    I remembered the basics and the process I needed to follow.
-                                </p>
-                                <p>
-                                    After the entryway bench, I made a bench
-                                    for my parents front yard, wall décor for
-                                    my house, a side table for my living room,
-                                    and a Christmas decoration.
-                                </p>
-                            </div>
-
-                            <div class="row1">
-                                <div class="column1">
+                            </td>
+                            <td>
+                    </div>
+                    <div id="box2">
+                        <img src="Images/birdhouse2.jpg" width="700px">
+                    </div>
+                    </td>
+                    </table>
+    </div>
+    </section>
 
 
-                                    <img src="Images/entry.jpg" style="width: 300px; height: 300px;">
-                                    <img src="Images/Bench.png" style="width:300px">
+    <section>
+        <h2>Do it | </h2>
+        <div>
+            <p> As I have become an adult, the desire to build and
+                create has never gone away. When I moved to Colorado
+                7 years ago, my dad gave me a battery powered drill
+                and skill saw. I had a friend that was moving and
+                was getting rid of wooden bed slats used for a
+                platform bed. I realized this could be a good
+                opportunity to make something out of nothing.
+            </p>
+            <p>
+                As I started brainstorming, I came up with the idea
+                to build an entryway bench for my apartment. I had
+                not built anything like this before, so I started by
+                searching Pinterest to find design ideas. I also used
+                YouTube instructional videos to figure out exactly how
+                to put it together. All the skills I had learned from
+                when I was a child and teenager had not been forgotten.
+                I remembered the basics and the process I needed to follow.
+            </p>
+            <p>
+                After the entryway bench, I made a bench
+                for my parents front yard, wall décor for
+                my house, a side table for my living room,
+                and a Christmas decoration.
+            </p>
+        </div>
 
-                                </div>
-                                <div class="column1">
-                                    <img src="Images/Arrows1.png" style="width: 600px;px">
+        <div class="row1">
+            <div class="column1">
 
 
+                <img src="Images/entry.jpg" style="width: 300px; height: 300px;">
+                <img src="Images/Bench.png" style="width:300px">
 
-                                </div>
-                                <div class="column1">
-                                    <img src="Images/Table.png" style="width: 300px; ">
-                                    <img src="Images/Grinch.png" style="width: 300px; height: 490px;">
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+            </div>
+            <div class="column1">
+                <img src="Images/Arrows1.png" style="width: 600px;px">
 
 
 
-            </article>
-        </main>
+            </div>
+            <div class="column1">
+                <img src="Images/Table.png" style="width: 300px; ">
+                <img src="Images/Grinch.png" style="width: 300px; height: 490px;">
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    </article>
+    </main>
     </div>
 </body>
 <footer>

@@ -81,10 +81,9 @@
         }
         main {
             display: block;
-            padding-top: 5em;
+            
             padding-bottom: 3em;
             min-height: 85%;
-            text-align: center;
             overflow: auto;
             background-color: #F2F2F2;
         }
@@ -99,17 +98,7 @@
             
         }
 
-        @media all and (max-width: 900px) {
-            .column {
-                width: 100%;
-               
-            }
-            .box-parent-element,  
-            .box-child-element,
-            .box1, .box2 {
-                width: 100%;
-            }
-        }
+        
 
       
 
