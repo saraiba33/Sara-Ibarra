@@ -14,7 +14,8 @@
             letter-spacing: 5px;
             padding: 30px;
             font-size: 50px;
-            text-shadow: 2px 2px 8px white;
+            text-shadow: 2px 2px 8px black;
+            color: #F2F2F2;
 
         }
 
@@ -23,7 +24,8 @@
             letter-spacing: 5px;
             padding: 20px;
             font-size: 35px;
-            text-shadow: 2px 2px 8px white;
+            text-shadow: 2px 2px 8px black;
+            color: #F2F2F2;
         }
 
         h2 {
@@ -72,14 +74,15 @@
 
         .box1 {
             background-color: #DAA967;
-            padding: 30px 20px;
+            padding: 30px 0;
+            padding-right: 50px;
             box-shadow: 10px 10px 5px gray;
             min-width: 300px;
             width: 50%;
 
         }
 
-        #box2 {
+        .box2 {
             width: auto;
             text-align: center;
             margin-left: 5%;
@@ -90,11 +93,13 @@
         table {
             margin-left: 50px;
         }
+       
 
-        @media all and (max-width: 900px) {
+        
+        @media all and (max-width: 1000px) {
 
-            #box1,
-            #box2 {
+            .box1,
+            .box2 {
                 width: 100%;
 
             }
@@ -114,7 +119,7 @@
             </nav>
             <h1>My Passion</h1>
             <hr style="height: 2.5px; border-color: #DAA967; background-color: #DAA967; 
-            width: 20%; margin:auto">
+            width: 12%; margin:auto">
             <h3>Wood Projects </h3>
 
         </header>
@@ -125,8 +130,7 @@
                         <strong style="font-size: 30px;">My creative process is a three step process:</strong>
                         <p style="font-size: 20px;">watch & learn, practice with guidance, do it on my own.</p>
                     </div>
-                    <hr style="border-color: black; background-color: black; 
-                width: 50%; margin:auto; margin-top: 30px;">
+                    
                 </section>
 
                 <section>
@@ -185,7 +189,7 @@
                             </td>
                             <td>
                     </div>
-                    <div id="box2">
+                    <div class="box2">
                         <img src="Images/birdhouse2.jpg" width="700px">
                     </div>
 
@@ -197,7 +201,7 @@
 
     <section>
         <h2>Do it | </h2>
-        <div>
+        <div >
             <p> As I have become an adult, the desire to build and
                 create has never gone away. When I moved to Colorado
                 7 years ago, my dad gave me a battery powered drill
@@ -224,7 +228,7 @@
             </p>
         </div>
 
-        <div class="row1">
+        <div class="row1" >
             <div class="column1">
 
 

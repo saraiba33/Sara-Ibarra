@@ -56,7 +56,7 @@
         }
 
         .btn:hover {
-            background-color: #7E3D2B;
+            background-color: #913319;
             color: black;
         }
 
@@ -81,11 +81,11 @@
         }
         main {
             display: block;
-            
             padding-bottom: 3em;
             min-height: 85%;
             overflow: auto;
             background-color: #F2F2F2;
+            font-size: 20px;
         }
         footer {
             padding: 15px;
