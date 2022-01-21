@@ -40,47 +40,65 @@
             text-align: center;
             padding: 30px 10px;
         }
-        table {
+        #table1 {
             margin-left: 5%;
             padding-top: 80px;
+            margin-right: 4%;
+          
+        }
+
+        #table2 {
+            margin-left: 5%;
+            padding: 80px 0;
+            margin-right: 5%;
             
-            
+          
         }
         #box1 {
             background-color: #DAA967;
             padding: 0 80px;
+            
             padding-right: 50px;
             box-shadow: 10px 10px 5px gray;
             min-width: 300px;
-            width: 50%;
+            width: 33.33%;
         }
 
-        #box2 {
+        #box2, #box5 {
             width: auto;
             text-align: center;
             margin-left: 5%;
             height: 500px;
+            
         }
         #box4 {
             background-color: rgb(166, 159, 160, 0.5);
-            padding: 50px 80px;
+            padding: 0 80px;
             padding-right: 50px;
             box-shadow: 10px 10px 5px gray;
             min-width: 300px;
-            width: 50%;
+            width: 33.33%;
         }
 
-        #box3 {
+        #box3, #box6 {
             width: auto;
             text-align: center;
             margin-left: 5%;
-            padding: 80px
+            height: 500px; 
         }
-
-
+        #bottom{
+            width: 100%;
+            background-color: #DAA967;
+            padding:100px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        figcaption {
+            font-size: 30px;
+            padding-bottom: 20px;
+            font-weight: bold;
+        }
     </style>
-
-
 </head>
 
 <body>
@@ -89,7 +107,7 @@
             <nav>
 
                 <ul>
-                    <li><a href="index.html" class="btn 1">Who I Am</a></li>
+                    <li><a href="index.html" class="btn 1">My Story</a></li>
                     <li><a href="creative.html" class="btn 2">My Passion</a></li>
                     <li><a href="revisions.html" class="btn 3">My Guidance</a></li>
                 </ul>
@@ -106,16 +124,16 @@
                   <p>Chatoyre, a video editor/graphic designer and Valentina, a television program producer.
                 </p>
             </div>
-            <table id="top">
+            <table id="table1">
                 <tr>
                     <td id="box1">
-                        <h2>"About me" revisions</h2>
+                        <h2>"My Story" Revisions</h2>
                         <h4>Chatoyre's layout suggestions:</h4>
                         <ul>
                             <li>Choose a color palette</li>
                             <li>Left justify all paragraphs</li>
                             <li>Add space between paragraphs</li>
-                            <li>Nav bar is ok at the bottom, but try placing at the top</li>
+                            <li>Navigation bar is fine at the bottom, but try placing it at the top</li>
                         </ul>
                         <br>
                         <h4>Valentina's layout suggestions:</h4>
@@ -127,20 +145,38 @@
                         </ul>
                     </td>
                     <td id="box2">
+                        <figcaption>Before</figcaption>
                         <a href="Images/index1.png" target="_blank">
-                        <img src="Images/index1.png" style="width: 500px;"></td>
+                        <img src="Images/index1.png" style="width: 450px; height: 275px; ">
+                       
                     </a>
+                    
+                    <td id="box5">
+                        <figcaption>After</figcaption>
+                        <a href="Images/Final1.png" target="_blank">
+                        <img src="Images/Final1.png" style="width: 400px;">
+                    </a>
+                   
+                </td>
+                </td>
                 </tr>
                 </table>
-                <table>
+                <table id="table2">
                 <tr>
                     <td id="box3">
+                        <figcaption>Before</figcaption>
                         <a href="Images/Revision3.png" target="_blank">
-                            <img src="Images/Revision3.png" style="width: 300px;"></td>
-                        
+                            <img src="Images/Revision3.png" style="width: 300px;">
+                        </a>
+                    </td>
+                    <td id="box6">
+                        <figcaption>After</figcaption>
+                        <a href="Images/Final.png" target="_blank">
+                            <img src="Images/Final.png" style="width: 300px; height: 475px;">
+                        </a>
+                    </td>
                     <td id="box4">
-                        
-                        <h2>"My Passion" revisons</h2>
+                        <h2>"My Passion" Revisions</h2>
                         <h4>Chatoyre's layout suggestions:</h4>
                         <ul>
                             <li>Choose a color palette</li>
@@ -151,15 +187,20 @@
                         <br>
                         <h4>Valentina's layout suggestions:</h4>
                         <ul>
-                            <li>Keep same color and theme thorughout all pages</li>
+                            <li>Keep same color and theme throughout all pages</li>
                             <li>Intro font size too small, needs to be more defined</li>
                             <li>Keep same header image on all pages</li>
                             <li>Make sure all elements are centered</li>
                         </ul>
                     </td>
-                    </a>
                 </tr>
             </table>
+            <div id="bottom">
+                <div>
+                <p>After taking all of the suggestions into consideration and spending time 
+                    re-evaluating my design choices, I finally have a finished product!
+                </p>
+            </div>
         </main>
     </div>
 </body>
